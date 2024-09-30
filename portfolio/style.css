@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4A90E2;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#scrollTopBtn:hover {
+    background-color: red;
+}
